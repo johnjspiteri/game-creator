@@ -1,0 +1,36 @@
+{
+  "name": "GameSource",
+  "private": true,
+  "version": "0.0.1",
+  "description": "The Gauge Game Source Creator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "John Spiteri (johnjspiteri)",
+    "email": "john@johnspiteri.io",
+    "url": "http://johnspiteri.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/interface-agency/game-creator"
+  },
+  "bugs": {
+    "url": "https://github.com/interface-agency/game-creator/issues"
+  },
+  "files": [
+    "api",
+    "model",
+    "node_modules"
+  ],
+  "dependencies": {
+    "errorhandler": "1.0.0",
+    "express": "4.9.0",
+    "mongoose": "4.3.4",
+    "morgan": "1.6.1"
+  },
+  "engines": {
+    "node": ">=0.11.0"
+  }
+}

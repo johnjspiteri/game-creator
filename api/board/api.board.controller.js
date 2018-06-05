@@ -32,7 +32,7 @@ exports.create = function() {
 		for(var i=0; i<source[key].length; i++) {
 			console.log('source key:', source[key][i]);
 			var marker = source[key][i];
-			var route = path.join('/Users/jj/Development/library/library/questions', map[key], marker, marker + '.json');
+			var route = path.join('/Users/jj/Development/gauge-library/library/questions', map[key], marker, marker + '.json');
 			var question = read(route);
 			questions[key].push(question);
 		}
